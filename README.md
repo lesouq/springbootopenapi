@@ -6,11 +6,11 @@ Dans une API REST la documentation est importante (springDoc) il est important d
 
 Srpingdoc-openapi génére automatiquement les documents de spécification OpenAPI3. Il suffit d'ajouter la dépendance adéquate:
 
-    - <dependency>
-    <groupId>org.springdoc</groupId>
-    <artifactId>springdoc-openapi-ui</artifactId>
-    <version>1.2.32</version>
-    </dependency>
+    -   <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>1.2.32</version>
+        </dependency>
 
 Il faut savoir que lors de l'exécution de l'application, les descriptions OpenAPI seront disponible par défaut sur le cemin /V3/api-docs.
 
