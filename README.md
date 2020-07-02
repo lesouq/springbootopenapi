@@ -22,7 +22,9 @@ Il faut savoir que lors de l'exécution de l'application, les descriptions OpenA
 # Configuration du fichier application.properties
 
   application-description=@project.description@
+  
   application-version=@project.version@
+  
   logging.level.org.springframework.boot.autoconfigure=ERROR
   
   Les entrées inscritent dans "application.properties" transmettront les informations relatives à la construction de la documentation OpenAPI
