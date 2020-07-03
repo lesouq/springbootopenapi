@@ -39,3 +39,9 @@ Il faut savoir que lors de l'exécution de l'application, les descriptions OpenA
   
     http://localhost:8080/swagger-ui.html
  
+ Le contrat sera automatique détaillé en utilisant les annotations JSR-303 sur le modèle.
+ 
+ # Conclusion
+ 
+ Le springdoc-openapi génère la documentation API selon la spécification OpenAPI 3. De plus, il gère également la configuration de 
+ l'interface utilisateur Swagger pour nous, ce qui rend la génération de documents API une tâche assez simple.
